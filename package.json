@@ -1,0 +1,23 @@
+{
+  "name": "atom-svelte-transpiler",
+  "version": "1.0.0",
+  "description": "A transpiler for Svelte components used in Atom packages",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peer8/atom-svelte-transpiler.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "atom",
+    "svelte",
+    "sveltejs",
+    "transpile",
+    "transpiler"
+  ],
+  "license": "MIT",
+  "dependencies": {
+  }
+}
