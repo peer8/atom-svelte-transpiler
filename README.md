@@ -12,21 +12,24 @@ In detail:
 
 **1.** First, install the package from the npm registry:
 
-    npm install --save atom-svelte-transpiler
+    `npm install --save atom-svelte-transpiler`
 
 **2.** Next, modify your `package.json` to include a reference to the transpiler for all Svelte files.
 
+// Something
 ```javascript
 {
   ...
   "atomTranspilers": [
     {
       "glob": "**/*.svelte",
-      "transpiler": "atom-svelte-transpiler"
+      "transpiler": "atom-svelte-transpiler",
     }
   ]
 }
 ```
+
+test
 
 **3.** Finally, install Svelte and other plugins you may wish:
 
@@ -40,7 +43,9 @@ You may specify the following options as values of the `options` object in your 
 |--:|---|---|
 |`cacheKeyFiles`|`[]`|An array of files to include when determining whether or not to use the cache. For example, to force a recompile anytime your `.babelrc` changes, add `.babelrc` to this array.|
 
-## Other Details
+## Contributors
+
+admin@peer8.com and fiona@peeer8.com are two of our contributors.
 
 ### Source Maps
 
